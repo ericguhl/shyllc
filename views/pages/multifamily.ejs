@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shapes Almanac</title>
+  <% include ../partials/head %>
+  <script src="../js/shapesSlideshows.js"></script>
+</head>
+</html>
+
+<header>
+  <% include ../partials/header %>
+</header>
+
+<!-- ALMANAC -->
+<div class="w3-container w3-padding-32">
+  <div class="w3-content">
+    <div class="w3-container w3-center">
+      <h1>SHAPES ALMANAC</h1>
+      <hr />
+      <p>
+        Kill your next festival with some wicked shapes.
+      </p>
+    </div>
+    <div class="w3-panel w3-yellow w3-display-container">
+      <span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-yellow w3-large w3-display-topright">&times;</span>
+      <p>Click a move to expand; click a gif/pic to enlarge. Colors represent difficulty</p>
+    </div>
+    <div class="w3-panel w3-yellow w3-hide-large w3-hide-medium w3-display-container">
+      <span onclick="this.parentElement.style.display='none'" class="w3-button w3-small w3-yellow w3-large w3-display-topright">&times;</span>
+      <p>Rotate phone to landscape for larger gifs!</p>
+    </div>
+    <!-- ************************************** ANKLE BREAKERS ************************************** -->
+    <h2>ANKLE BREAKERS</h2>
+    <% include ../partials/shapesAnkleBreakers.ejs %>
+    <!-- ************************************** CRISS CROSS ************************************** -->
+    <h2>CRISS CROSS</h2>
+    <% include ../partials/shapesCrissCrosses.ejs %>
+    <!-- ************************************** CUTS ************************************** -->
+    <h2>CUTS</h2>
+    <% include ../partials/shapesCuts.ejs %>
+    <!-- ************************************** LEANERS ************************************** -->
+    <h2>FLY FEET</h2>
+    <% include ../partials/shapesFlyFeet.ejs %>
+    <!-- ************************************** SHIMMY ************************************** -->
+    <h2>SHIMMY</h2>
+    <% include ../partials/shapesShimmys.ejs %>
+    <!-- ************************************** SPINS ************************************** -->
+    <h2>SPINS</h2>
+    <% include ../partials/shapesSpins.ejs %>
+  </div>
+</div>
+
+<!-- CURRICULUMS -->
+<!-- <div class="w3-container w3-light-grey w3-padding-32">
+  <div class="w3-content">
+    <div class="w3-container w3-center">
+      <h1>COMBO LESSONS</h1>
+      <hr />
+      <p>
+        Not sure where to start? Take one of these short lessons to learn a specific chain of 3-4 moves that naturally evolve from one another / flow well together!
+      </p>
+    </div>
+    <div class="w3-panel w3-left-align w3-yellow w3-display-container">
+      <span onclick="this.parentElement.style.display='none'" class="w3-button w3-xlarge w3-yellow w3-large w3-display-topright">&times;</span>
+      <p>Coming Soon!!</p>
+    </div>
+    <div class="w3-panel w3-center">
+      <!-- <iframe class="w3-hide-small" width="560" height="315" src="https://www.youtube.com/embed/KESEm6zI7VM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe class="w3-hide-large w3-hide-medium" width="330" height="186" src="https://www.youtube.com/embed/KESEm6zI7VM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+    </div>
+  </div>
+</div> -->
+
+<!-- MODALS -->
+<% include ../partials/modalsMoveShapes %>
+<% include ../partials/modalsCountShapes %>
+
+<footer>
+    <% include ../partials/footer %>
+</footer>
