@@ -16,3 +16,17 @@ h6 {font-family: "Raleway"; font-weight: bold} */
 .sticky {
   padding-top: 60px;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/whisperingpines1.png");
+
+    /* Set a specific height */
+    height: 850px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
