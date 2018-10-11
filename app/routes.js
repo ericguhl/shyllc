@@ -24,9 +24,14 @@ router.get('/multifamily', function(req, res) {
   res.render('pages/multifamily');
 });
 
-// route for management
-router.get('/management', function(req, res) {
-  res.render('pages/management');
+// route for multi management
+router.get('/managementsingle', function(req, res) {
+  res.render('pages/managementsingle');
+});
+
+// route for single management
+router.get('/managementmulti', function(req, res) {
+  res.render('pages/managementmulti');
 });
 
 // route for contact
